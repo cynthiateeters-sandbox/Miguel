@@ -1,19 +1,33 @@
 {
   "name": "miguel-martinez-serrato",
-  "version": "1.1.1",
-  "description": "",
+  "version": "1.1.2",
+  "description": "Get to know Miguel Angel Martinez Serrato",
   "main": "index.js",
   "bin": {
     "miguel-martinez-serrato": "./index.js"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miguelms017/Miguel.git"
+  },
+  "keywords": [
+    "cli",
+    "command-line"
+  ],
   "author": "Miguel Angel Martinez Serrato <g00301640@stu.raritanval.edu> (https://github.com/Miguelms017)",
   "license": "MIT",
-  "repository": "https://github.com/Miguelms017/Miguel",
+  "bugs": {
+    "url": "https://github.com/Miguelms017/Miguel/issues"
+  },
+  "homepage": "https://github.com/Miguelms017/Miguel#readme",
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
